@@ -20,7 +20,7 @@ const AdminLogin = () => {
                   <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-primary/10 mb-4">
                     <AppImage
                       src="/assets/images/Untitled_design-1775296554870.png"
-                      alt="Sri Saraswathi Vidhya Mandir School Logo"
+                      alt="Your School Name Logo"
                       className="w-10 h-10 md:w-12 md:h-12 object-contain"
                     />
                   </div>
@@ -37,7 +37,7 @@ const AdminLogin = () => {
                 <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-border space-y-3">
                   <div className="flex items-center justify-center gap-2 text-xs md:text-sm text-muted-foreground">
                     <Icon name="Lock" size={16} />
-                    <span>Secured by Sri Saraswathi Vidhya Mandir</span>
+                    <span>Secured by Your School Name</span>
                   </div>
                   <div className="text-center">
                     <Link
@@ -114,12 +114,12 @@ const AdminLogin = () => {
             <div className="flex items-center gap-2">
               <AppImage
                 src="/assets/images/Untitled_design-1775296554870.png"
-                alt="Sri Saraswathi Vidhya Mandir School Logo"
+                alt="Your School Name Logo"
                 className="w-5 h-5 object-contain"
               />
               <div className="flex flex-col">
                 <p className="text-sm text-muted-foreground">
-                  © {new Date()?.getFullYear()} Sri Saraswathi Vidhya Mandir. All rights reserved.
+                  © {new Date()?.getFullYear()} SYour School Name. All rights reserved.
                 </p>
                 <p className="text-xs text-muted-foreground/80">
                   Developed by <span className="font-medium">ZAMZAM Infotech</span>
