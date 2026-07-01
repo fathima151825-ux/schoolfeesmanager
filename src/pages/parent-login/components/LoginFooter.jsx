@@ -45,10 +45,10 @@ const LoginFooter = () => {
         </a>
       </div>
       <p className="text-xs text-muted-foreground font-caption">
-        © {new Date()?.getFullYear()} Sri Saraswathi Vidhya Mandir. All rights reserved.
+        © {new Date()?.getFullYear()} Your School Name. All rights reserved.
       </p>
       <p className="text-xs text-muted-foreground/80 font-caption mt-1">
-        Developed by <span className="font-medium text-muted-foreground">ZAMZAM Infotech</span>
+        Developed by <span className="font-medium text-muted-foreground">Navomax Infotech</span>
       </p>
     </div>
   );
